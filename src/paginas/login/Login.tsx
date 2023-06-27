@@ -24,8 +24,7 @@ function Login() {
         setUserLogin({
             ...userLogin,
             [e.target.name]: e.target.value
-        });
-        console.log(JSON.stringify(userLogin))
+        })
     }
 
     useEffect(() => {
