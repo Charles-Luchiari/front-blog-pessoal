@@ -14,7 +14,7 @@ function DeletarTema() {
     const { id } = useParams<{ id: string }>();
     const token = useSelector<TokenState, TokenState["tokens"]>(
         (state) => state.tokens
-      );
+    );
     const [tema, setTema] = useState<Tema>()
 
     useEffect(() => {

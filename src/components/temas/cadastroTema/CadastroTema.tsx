@@ -5,7 +5,7 @@ import { buscaId, post, put } from '../../../services/Service';
 import { Button, Container, TextField, Typography } from '@material-ui/core';
 import { useSelector } from 'react-redux';
 import { TokenState } from '../../../store/tokens/tokensReducer';
-import {toast} from 'react-toastify';
+import { toast } from 'react-toastify';
 
 
 
@@ -14,7 +14,7 @@ function CadastroTema() {
     const { id } = useParams<{ id: string }>();
     const token = useSelector<TokenState, TokenState["tokens"]>(
         (state) => state.tokens
-      );
+    );
     const [tema, setTema] = useState<Tema>({
         id: 0,
         descricao: ''
