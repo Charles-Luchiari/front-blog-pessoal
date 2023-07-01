@@ -36,9 +36,9 @@ function Navbar() {
 
     if (token != "") {
         navbarComponent = <AppBar position="static">
-            <Toolbar variant="dense">
+            <Toolbar variant="dense" className='toolbar'>
                 <Box className='cursor'>
-                    <Typography variant="h5" color="inherit">
+                    <Typography variant="h5" >
                         BlogPessoal
                     </Typography>
                 </Box>
