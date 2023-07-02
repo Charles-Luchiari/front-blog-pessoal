@@ -1,9 +1,10 @@
 .textos1 {
     font-weight: bold !important;
+    color: #F8F8FB !important;
 }
 
 .imagem {
-    background-image: url(https://i.imgur.com/d5bMdDJ.jpg);
+    background-image: url('src/assets/Bem_vindo.png');
     background-repeat: no-repeat;
     width: 100vh;
     min-height: 100vh;
@@ -13,4 +14,13 @@
 
 .text-decorator-none {
     text-decoration: none;
+}
+
+.fundo{
+    background: linear-gradient(#745D8B, #595AA8);
+}
+
+.cor{
+    background-color: #C2C1DD;
+    border-radius: 3%;
 }

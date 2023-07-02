@@ -14,7 +14,7 @@ function TabPostagem() {
     return (
         <>
             <TabContext value={value}>
-                <AppBar position="static" style={{background: "#453259"}}>
+                <AppBar position="static" style={{ background: "#453259" }}>
                     <Tabs centered onChange={handleChange}>
                         <Tab label="Todas as postagens" value="1" />
                         <Tab label="Sobre-nós" value="2" />
@@ -27,7 +27,11 @@ function TabPostagem() {
                 </TabPanel>
                 <TabPanel value="2" className='cursor2'>
                     <Typography variant="h5" gutterBottom color="textPrimary" component="h5" align="center" className="titulo">Sobre-nós</Typography>
-                    <Typography variant="body1" gutterBottom color="textPrimary" align="justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos ut eveniet natus totam et, voluptate dicta tempore alias, odio nobis non eius cupiditate minima inventore pariatur! Ipsum itaque consectetur voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo velit consequuntur suscipit fugiat, nam quis quod quaerat veritatis et, vel ratione beatae, facere neque! Quo animi porro voluptate saepe deleniti? Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore adipisci, officia aut quidem dolorum deserunt iure dolorem doloribus velit nobis quas consequatur at ullam odit, nesciunt est nulla nihil excepturi!</Typography>
+                    <Typography variant="body1" gutterBottom color="textPrimary" align="justify">
+                        O nosso blog espacial é um espaço dedicado a entusiastas do espaço compartilharem suas opiniões e ideias sobre o universo. Nele, os leitores podem discutir descobertas científicas, avanços tecnológicos, teorias cósmicas e exploração espacial, além de contribuir
+                        com suas próprias observações astronômicas. Com um ambiente de diálogo aberto e inclusivo, nosso objetivo é reunir uma comunidade vibrante e inspiradora, onde todos possam aprender, se inspirar e expandir seu conhecimento sobre o cosmos, desvendando os mistérios do universo e explorando suas maravilhas desconhecidas.
+                        Junte-se a nós nessa jornada emocionante de descoberta espacial, onde as opiniões e perspectivas de todos são valorizadas. Compartilhe suas ideias, participe das discussões e contribua com suas próprias experiências e conhecimentos. O espaço nos aguarda, então vamos explorá-lo juntos e desvendar os segredos fascinantes do universo!
+                    </Typography>
                 </TabPanel>
             </TabContext>
         </>
