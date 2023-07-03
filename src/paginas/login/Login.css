@@ -17,10 +17,9 @@
 }
 
 .fundo{
-    background: linear-gradient(#745D8B, #595AA8);
+    background: linear-gradient(#745D8B, #595AA8, #22235a);
 }
 
 .cor{
     background-color: #C2C1DD;
-    border-radius: 3%;
 }

@@ -73,8 +73,8 @@ function Login() {
                     <form onSubmit={onSubmit}>
                         <Typography variant='h3' gutterBottom color='textPrimary' component='h3' align='center' className='textos1'>Faça seu Login</Typography>
                         <Typography variant='h5' gutterBottom color='textPrimary' component='h5' align='center' className='textos1'>Esse é o UniverseBlog, venha escrever suas ideias !</Typography>
-                        <TextField  value={userLogin.usuario} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='usuario' label='Usuário' variant='outlined' name='usuario' margin='normal' fullWidth className='cor' />
-                        <TextField value={userLogin.senha} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='senha' label='Senha' variant='outlined' name='senha' margin='normal' type='password' fullWidth className='cor' />
+                        <TextField value={userLogin.usuario} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='usuario' label='Usuário' variant='standard' name='usuario' margin='dense' fullWidth className='cor' />
+                        <TextField value={userLogin.senha} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='senha' label='Senha' variant='standard' name='senha' margin='dense' type='password' fullWidth className='cor' />
                         <Box marginTop={2} textAlign='center'>
                             <Button type='submit' variant='contained' color='primary'>
                                 Logar
