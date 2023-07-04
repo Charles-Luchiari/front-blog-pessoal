@@ -8,6 +8,7 @@ import { useNavigate } from 'react-router';
 import { useSelector } from 'react-redux';
 import { TokenState } from '../../store/tokens/tokensReducer';
 import { Link } from 'react-router-dom';
+import imgHome from '../../assets/astronauta_home.png'
 import {toast} from 'react-toastify';
 
 function Home() {
@@ -51,7 +52,7 @@ function Home() {
                     </Box>
                 </Grid>
                 <Grid item xs={6} >
-                    <img src="src/assets/astronauta_home.png" alt="" width="500px" height="500px" />
+                    <img src={imgHome} alt="" width="500px" height="500px" />
                 </Grid>
                 <Grid xs={12} className='postagens'>
                     <TabPostagem />

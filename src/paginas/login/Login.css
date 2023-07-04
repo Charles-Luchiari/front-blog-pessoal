@@ -4,7 +4,7 @@
 }
 
 .imagem {
-    background-image: url('src/assets/Bem_vindo.png');
+    background-image: url(imgLogin);
     background-repeat: no-repeat;
     width: 100vh;
     min-height: 100vh;
