@@ -7,6 +7,7 @@ import UserLogin from '../../models/UserLogin';
 import './Login.css';
 import { useDispatch } from 'react-redux';
 import { addToken } from '../../store/tokens/actions';
+import imgLogin from '../../assets/Bem_vindo.png'
 import { toast } from 'react-toastify';
 
 function Login() {
