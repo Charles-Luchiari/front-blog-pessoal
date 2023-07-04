@@ -1,3 +1,13 @@
 .text-decorator-none {
     text-decoration: none;
 }
+
+.corAtualizar {
+    background-color: #2c2740 !important;
+    color: white !important;
+}
+
+.corDeletar {
+    background-color: #ab47bc !important;
+    color: white !important;
+}
